@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "../src/Components/Home";
+
+import Home from "./Components/Home/Home";
 import About from "../src/Components/About";
 import Blog from "../src/Components/Blog";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
+import NavBar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
+    <>
+    <NavBar/>
     <BrowserRouter>
       <Switch>
         <Route exact path="/about" component={About}/>
@@ -16,6 +20,7 @@ function App() {
         <Redirect to="/"/>
       </Switch>
     </BrowserRouter>
+    </>
   );
 }
 
