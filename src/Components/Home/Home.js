@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css"
 import { Button, Container, Row, Col } from 'react-bootstrap';
-import terminalIcon from "../../public/laptop1.svg"
+import terminalIcon from "../../Images/laptop1.svg"
 
 function Home() {
   return (
@@ -23,10 +23,10 @@ function Home() {
                   </a>
                 </div>
               </div>    */}
-              <div className="mx-auto" style={{paddingTop: 50}}>
+              <div className="col-md-10 mx-auto" style={{paddingTop: 50}}>
               <Container >
                 <Row className="d-flex align-items-center">
-                  <Col sm={6} >
+                  <Col md={6} >
                     <h1>
                       Hi, I am Badal Sharma.
                     </h1>
@@ -34,10 +34,10 @@ function Home() {
                       I am working as Software Developer.
                     </h2>
                     <Button>
-                      Get Started
+                      Resume
                     </Button>
                   </Col>
-                  <Col sm={6} className="d-flex justify-content-center">
+                  <Col md={6} className="d-flex justify-content-center">
                     <img src={terminalIcon} alt="terminal image" style={{width: "100%"}}></img>
                   </Col>
                 </Row>

@@ -1,5 +1,11 @@
 .navbar {
   background: #fff !important;
+  padding : 20px;
+}
+
+
+.navbar a {
+  font-size: 1.5rem !important;
 }
 
 .navbar-brand {
@@ -7,9 +13,7 @@
   color: #565387;
 }
 
-.navbar a {
-  font-size: 1.2rem !important;
-}
+
 
 .navbar a:hover {
   color: #3498db;

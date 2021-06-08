@@ -7,6 +7,7 @@ import About from "../src/Components/About";
 import Blog from "../src/Components/Blog";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 import NavBar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Redirect to="/"/>
       </Switch>
     </BrowserRouter>
+    <Footer/>
     </>
   );
 }

@@ -1,0 +1,9 @@
+.imgContainer {
+  height : 200px;
+  border-radius: 50%;
+}
+
+
+.iconsSpace {
+  justify-content: space-evenly;
+}
